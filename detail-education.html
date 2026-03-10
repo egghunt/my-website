@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>บทบาทในการศึกษา</title>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+/* พื้นหลังหลัก */
+body{
+    margin:0;
+    font-family: 'Kanit', sans-serif;   /* ฟอนต์อ่านง่าย */
+    background:linear-gradient(135deg,#141e30,#243b55);
+    color:#f5f5f5;                      /* ไม่ใช้ขาวจ้าเกิน */
+    line-height:1.8;                    /* ระยะห่างบรรทัด */
+}
+
+/* กล่องเนื้อหา */
+.container{
+    padding:50px;
+    max-width:1100px;
+    margin:auto;
+}
+
+/* หัวข้อหลัก */
+h1{
+    font-size:36px;
+    color:#4da6ff;
+    margin-bottom:20px;
+}
+
+/* ส่วนจัดวางรูป + ข้อความ */
+.content{
+    display:flex;
+    gap:40px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+/* รูปภาพ */
+.content img{
+    width:100%;
+    max-width:350px;
+    border-radius:20px;
+    display:block;
+    margin:0 auto;
+    box-shadow:0 15px 30px rgba(0,0,0,0.5);
+}
+
+.content img:hover{
+    transform:scale(1.05);
+}
+
+/* ตัวหนังสือเนื้อหา */
+.content p{
+    font-size:19px;
+    letter-spacing:0.3px;
+}
+
+/* Emoji ลอย */
+.emoji{
+    font-size:45px;
+    animation: float 2.5s infinite ease-in-out;
+}
+
+/* Animation */
+@keyframes float{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-12px);}
+    100%{transform:translateY(0);}
+}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+<h1>🎓 บทบาทคอมพิวเตอร์ในการศึกษา</h1>
+
+<div class="content">
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="industry">
+
+<p>
+คอมพิวเตอร์มีบทบาทสำคัญสูงสุดในการศึกษาฐานะเครื่องมือช่วยสอน (CAI), แหล่งค้นคว้าข้อมูลสารสนเทศที่ไร้ขีดจำกัดผ่านอินเทอร์เน็ต, และเครื่องมือจัดการบริหารข้อมูลในสถานศึกษา 
+ช่วยเปลี่ยนรูปแบบการเรียนรู้จากเดิมๆมาเป็นรูปแบบโต้ตอบ (Interactive Learning) การเรียนรู้ส่วนบุคคล (Personalized Learning) และการศึกษาทางไกล
+ทั้งยังส่งเสริมทักษะดิจิทัลที่จำเป็นในศตวรรษที่ 21 ทำให้ผู้เรียนสามารถเรียนรู้ได้ด้วยตนเองอย่างอิสระ ทุกที่ ทุกเวลา
+</p>
+
+</div>
+
+<div class="emoji">🤖</div>
+
+<br><br>
+<a href="index.html" style="color:#00ff99;">⬅ กลับ</a>
+
+</div>
+</body>
+</html>
